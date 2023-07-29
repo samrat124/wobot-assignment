@@ -1,0 +1,127 @@
+.message-main{
+    /* margin-top: 100px; */
+    background-color:rgb(245,245,245);
+    height: 650px;
+    width:100%;
+     
+}
+.form-main{
+    background-color: white;
+    display:grid;
+    width: 40%;
+    margin: auto;
+    box-shadow: 10px 50px 50px 20px rgb(94, 94, 228);
+    row-gap: 2%;
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    border-top:  3px solid rgb(94, 94, 228);
+}
+.form-heading{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+.form-logo-img{
+    width: 20%;
+    margin: auto;
+}
+.form-heading>h5{
+    margin-top: -10px;
+}
+.form-heading>p{
+    margin-top: -10px;
+}
+span{
+    width: 100%;
+    
+}
+.input-span{
+    margin-top: -50px;
+}
+.input-span>input{
+    margin-top: -20px;
+}
+.location{
+    margin-top: -50px;
+}
+.industry-select{
+    width: 95%;
+    height: 30%;
+    outline: none;
+    padding: 10px;
+    border: 2px solid turquoise;
+}
+.location{
+    width:100%;
+    display:grid;
+     
+}
+.location-part1{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.location-part1>label{
+background-color: rgb(240, 240, 240);
+display: flex;
+align-items: center;
+
+}
+.location-part1>label:hover{
+    background-color: blue;
+    color: white;
+}
+input{
+    width:90%;
+    margin: auto;
+    outline: none;
+    padding: 10px;
+    border: 2px solid turquoise;
+}
+textarea{
+    outline: none;
+    padding: 10px;
+}
+.onboard-main{
+    background-color: rgb(245,245,245);
+    height: 800px;
+     
+    
+}
+.below-btn{
+    background-color: rgb(55,102,232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+     
+}
+@media  screen and (max-width: 600px){
+    .onboard-main{
+        background-color: rgb(245,245,245);
+        height: 1200px;
+         
+    }
+    .form-main{
+        width: 60%;
+         height: 800px;
+        margin-right: 10%;
+        box-shadow: 5px 5px 20px blue;
+        display: grid;
+        row-gap: 1%;
+    }
+    .location-part1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* .message-main{
+ 
+        background-color:black;
+        height: 650px;
+        width:100%;
+         
+    } */
+}
